@@ -34,7 +34,7 @@
     <string name="create_acc">Cadastrar</string>
     <string name="skip">Pular</string>
     <string name="settings">Configurações</string>
-    <string name="no_permission_to_cancel_other_person_event">Sem permissão para cancelar eventos de outras pessoas</string>
+    <string name="no_permission_to_cancel_other_person_event">Você não possui permissão para cancelar eventos de outras pessoas</string>
     <string name="event_ended">Não é possível cancelar um evento já encerrado</string>
     <string name="cancelled">Cancelado</string>
     <string name="call">Chamada</string>
@@ -44,21 +44,21 @@
     <string name="done">Concluído</string>
     <string name="something_went_wrong">Algo deu errado, por favor tente novamente</string>
     <string name="something_went_wrong_complain">O seu relatório não foi enviado devido a um erro de rede, por favor tente novamente mais tarde</string>
-    <string name="username_registred_already">Usuário com este nome já inscrito</string>
+    <string name="username_registred_already">Usuário com este nome já possui cadastro</string>
     <string name="price_from">de</string>
     <string name="private_info">Informações Pessoais</string>
     <string name="public_info">Informação Pública</string>
     <string name="personal_data_private">Informação Pessoal Privada</string>
     <string name="personal_data_private_notice">Se ativado, os dados pessoais serão privados e ninguém conseguirá ligar, enviar um email ou visualizar o link do seu site</string>
-    <string name="website_enter_valid_link">Por favor, insira o link de site válido. Aqui está um exemplo: https://eventmate.app</string>
+    <string name="website_enter_valid_link">Por favor, insira o link válido. Aqui está um exemplo: https://eventmate.app</string>
     <string name="newEvent">Novo evento</string>
     <string name="in_part">em</string>
     <string name="profile">Perfil</string>
     <string name="search">Pesquisar</string>
     <string name="archive">Arquivo de eventos</string>
     <string name="username">Nome de usuário</string>
-    <string name="old_password_too_short">O comprimento da senha antiga deve ser maior que 5</string>
-    <string name="new_password_too_short">O comprimento da nova senha deve ser maior que 5</string>
+    <string name="old_password_too_short">A senha antiga deve possuir mais de 5 caracteres</string>
+    <string name="new_password_too_short">A nova senha deve possuir mais de 5 caracteres</string>
     <string name="old_password_is_wrong">A sua senha antiga está errada</string>
     <string name="old_password_match_with_new">A sua senha antiga coincide com a nova senha</string>
     <string-array name="settings">
@@ -78,7 +78,7 @@
     </string-array>
     <string-array name="notifications_array">
         <item>Eventos recém-criados</item>
-        <item>Usuários interessado</item>
+        <item>Usuários interessados</item>
         <item>Seguidores</item>
         <item>Início do evento</item>
         <item>Cancelamento de evento</item>
@@ -132,9 +132,9 @@
     <string name="follow">Seguir</string>
     <string name="email_registered">Este e-mail já está em uso</string>
     <string name="back_on_track">Você está de volta</string>
-    <string name="back_notice">Siga as instruções no e-mail para redefinir sua senha.</string>
+    <string name="back_notice">Siga as instruções no e-mail para redefinir sua senha</string>
     <string name="feed">Calendário</string>
-    <string name="user_not_found_email">Usuário com este e-mail ainda não está inscrito</string>
+    <string name="user_not_found_email">Usuário com este e-mail ainda não está cadastrado</string>
     <string name="next">Próximo</string>
     <string name="bio_max_length">1024</string>
     <string name="description_max_length">4096</string>
@@ -144,9 +144,9 @@
     <string name="bio">Bio</string>
     <string name="reset_password">Redefinir Senha</string>
     <string name="forgot_password">Esqueceu a senha?</string>
-    <string name="forgot_notice">Informe seu endereço de e-mail, e nós lhe enviaremos o link para redefinir sua senha.</string>
+    <string name="forgot_notice">Informe seu endereço de e-mail, e nós lhe enviaremos o link para redefinir sua senha</string>
     <string name="terms_of_use">Termos de uso</string>
-    <string name="tap_to_try_again">Toque para tentar novamente.</string>
+    <string name="tap_to_try_again">Toque para tentar novamente</string>
     <string name="terms_of_use_notice_android">Ao se cadastrar, você concorda com nossos %1$s e %2$s</string>
     <string name="cancel_event">Cancelar evento</string>
     <string name="schedule_date_should_be_chosen">A data agendada deve ser escolhida</string>
@@ -247,7 +247,7 @@
     <string name="passwords_does_not_match">A senha não corresponde</string>
     <string name="email_empty">Digite o e-mail</string>
     <string name="upload_a_photo">Carregar foto</string>
-    <string name="email_not_valid">O e-mail digitado não é válido</string>
+    <string name="email_not_valid">O e-mail digitado é inválido</string>
     <string name="attendees">Usuários interessados</string>
     <string name="happening_now">Acontecendo agora</string>
     <string name="registration_required">Cadastro necessário</string>
@@ -293,7 +293,7 @@
     <string name="verification_code_sent">O código de verificação foi enviado para o seu número de celular:</string>
     <string name="verify_number">Verificar número</string>
     <string name="less_then_one_minute">Menos de 1 minuto passou após a última tentativa de verificação</string>
-    <string name="number_already_in_use">Usuário com este número de telefone já inscrito</string>
+    <string name="number_already_in_use">Usuário com este número de telefone já cadastrado</string>
     <string name="wrong_verification_code">Código de verificação errado, volte para o SMS e tente novamente</string>
     <string name="verification_expired">Esta sessão de verificação expirou, tente enviar um novo SMS</string>
     <string name="verification_code_not_entered">Por favor, preencha todos os campos do código de verificação</string>
@@ -309,14 +309,14 @@
     <string name="continue_with_apple">Continue com a Apple</string>
     <string name="clear_filters">Limpar</string>
     <string name="cancel_event_title">Tem certeza de que deseja cancelar o evento?</string>
-    <string name="no_permission_to_change_other_person_schedule">Sem permissão para alterar a agenda de outras pessoas</string>
+    <string name="no_permission_to_change_other_person_schedule">Você não possui permissão para alterar a agenda de outras pessoas</string>
     <string name="schedule_not_valid">Um ou mais itens da programação não são válidos. Por favor, especifique todos os seguintes campos: título, descrição, hora de início, hora de término</string>
     <string name="show">Mostrar</string>
     <string name="hide">Esconder</string>
     <string name="sign_in_with_apple_error">Faça login com a Apple apenas disponível em dispositivos com iOS 13 ou posterior</string>
     <string name="no_permission_to_change_other_person_event">Sem permissão para alterar o evento de outra pessoa</string>
     <string name="details">Detalhes</string>
-    <string name="no_permission_to_change_other_person_profile">Sem permissão para alterar o perfil de outras pessoas</string>
+    <string name="no_permission_to_change_other_person_profile">Você não possui permissão para alterar o perfil de outras pessoas</string>
     <string name="password_changed">Senha alterada com sucesso</string>
     <string name="sign_in_notice">Entre na sua conta🏄📷🚀</string>
     <string name="or_text">OU</string>
@@ -382,7 +382,7 @@
     <string name="create_event_image_title">Adicione uma foto de capa para o evento</string>
     <string name="create_event_image_notice">Uma bela capa atrai mais atenção para o evento</string>
     <string name="create_event_change_photo">Mudar foto</string>
-    <string name="create_event_price_title">Planeia vender ingressos?</string>
+    <string name="create_event_price_title">Planeja vender ingressos?</string>
     <string name="create_event_price_notice">Entrada do evento</string>
     <string name="create_event_paid_entrance_notice">Entrada paga</string>
     <string name="create_event_paid_entrance_subtitle">Insira o custo mínimo dos ingressos e o link onde comprá-los</string>
@@ -435,10 +435,10 @@
     <string name="no_available_seats_left_error">Desculpe, a inscrição está fechada 🙁\nTalvez muitas pessoas já tenham se registado para o evento ou o período de inscrição expirou. Mais detalhes podem ser obtidos com o organizador do evento</string>
     <string name="telegram_event_not_found">Parece que algo deu errado 🙁\nPor favor, clique novamente o link de registo.\n\nSe o problema não desapareceu, escreva para o nosso serviço de atendimento, e ajudaremos: [@blink_support_bot](tg://user?id=1619607767) 🙏</string>
     <string name="telegram_number_not_valid">O formato do número não é válido, por favor tente novamente (exemplo: 380960000000)</string>
-    <string name="telegram_email_not_valid">O formato de email especificado não é válido, por favor verifique e tente novamente (exemplo: info@eventmate.email)</string>
+    <string name="telegram_email_not_valid">O formato de email especificado é inválido, por favor verifique e tente novamente (exemplo: info@eventmate.email)</string>
     <string name="telegram_answer_length_error">O comprimento da resposta excede o limite, por favor, torne-a mais curta</string>
     <string name="answer_with_number">Resposta</string>
-    <string name="telegram_name_not_valid">Nome especificado não é válido</string>
+    <string name="telegram_name_not_valid">Nome especificado inválido</string>
     <string name="telegram_question_not_specified">Indique as perguntas do formulário de inscrição</string>
     <string name="telegram_non_answered_question">Para se inscrever no evento é muito importante preencher todos os campos do formulário de inscrição. Verifique os seus dados e tente novamente. Tudo vai dar certo para você 💪</string>
     <string name="telegram_user_already_registered">Você atingiu o número máximo de assentos reservados por pessoa 👍</string>
@@ -475,7 +475,7 @@
     <string name="steps_left">Passos restantes:</string>
     <string name="blink_username">Usuário do eventmate:</string>
     <string name="registration_form_not_found">Nenhum formulário de inscrição anexado encontrado para este evento</string>
-    <string name="no_registration_form_answers">Ainda não há usuárioes registados para este evento, tente novamente mais tarde!</string>
+    <string name="no_registration_form_answers">Ainda não há usuários registados para este evento, tente novamente mais tarde!</string>
     <string name="user_not_registered">Parece que não está inscrito neste evento! 👀</string>
     <string name="user_cancelled_participation">O usuário cancelou a sua participação no seu evento</string>
     <string name="registration_cancelled">Participação cancelada</string>
@@ -499,7 +499,7 @@
     <string name="open_email_app">Abrir aplicativo de email</string>
     <string name="continue_event_creation">Bem-vindo de volta!</string>
     <string name="continue_event_creation_notice">Salvamos o progresso da criação do evento para você. Quer continuar de onde parou da última vez ou gostaria de começar de novo?</string>
-    <string name="start_from_scratch">Do novo</string>
+    <string name="start_from_scratch">De novo</string>
     <string name="new_registration_form_attendee">Novos participantes</string>
     <string name="new_registration_from_attendee_notice">Mais alguns participantes participaram do seu evento</string>
     <string name="message_sent">A sua mensagem foi enviada com sucesso</string>
@@ -563,9 +563,9 @@
     <string name="secure_tickets_title">Ingressos QR e digitalização</string>
     <string name="earn_tickets_subtitle">Aproveite os pagamentos diários das suas vendas de ingressos, com uma taxa de serviço razoável</string>
     <string name="secure_tickets_subtitle">Aproveite um serviço seguro e transparente com recursos como scanner de ingressos QR, coleta automática de opinião, relatórios em Excel e validação de dados</string>
-    <string name="how_it_works_1">Toque no botão *Criar Formulário de Cadastro* para acessar o chato para criar um formulário de cadastro</string>
+    <string name="how_it_works_1">Toque no botão *Criar Formulário de Cadastro* para acessar o chat para criar um formulário de cadastro</string>
     <string name="how_it_works_2">Personalize o formulário de cadastro para atender às suas necessidades. Use o construtor para adicionar perguntas para os participantes, escolher formatos de resposta e definir limitações</string>
-    <string name="how_it_works_3">Depois de criar o formulário, o chato produzirá o link exclusiva para o seu formulário. Insira esto link no campo *Formulário de Inscrição* do seu evento</string>
+    <string name="how_it_works_3">Depois de criar o formulário, o chat produzirá o link exclusiva para o seu formulário. Insira esto link no campo *Formulário de Inscrição* do seu evento</string>
     <string name="how_it_works_4">Uma vez que o evento é publicado, pode enviar o link do evento ou o link do formulário de inscrição para os seus participantes</string>
     <string name="how_it_works_5">Mantenha-se atualizado com o último relatório de inscrição na página do evento, na sessão *Gerenciar*.\n\nTambém enviaremos notificações push para novas inscrições e compras de ingressos</string>
     <string name="how_it_works_6">Após o evento, o bot solicitará aos participantes que forneçam opinião e compartilhem as suas impressões. Pode rever esses dados no relatório de cadastro</string>
@@ -578,11 +578,11 @@
     <string name="new_payments_body">Para verificar quais ingressos foram cobertos pelo pagamento, faça o download do relatório em</string>
     <string name="ticket">ingresso</string>
     <string name="onboarding_organizer_first_title">Deixe uma impressão duradoura</string>
-    <string name="onboarding_organizer_first_subtitle">Organize eventos que serão amados por milhares de usuárioes</string>
+    <string name="onboarding_organizer_first_subtitle">Organize eventos que serão amados por milhares de usuários</string>
     <string name="onboarding_organizer_second_title">Otimize o cadastro de participantes</string>
-    <string name="onboarding_organizer_second_subtitle">Utilize um formulário de inscrição para coletar informações dos participantes e manter contacto pelo bot do Telegram/WhatsApp/Facebook</string>
+    <string name="onboarding_organizer_second_subtitle">Utilize um formulário de inscrição para coletar informações dos participantes e manter contato pelo bot do Telegram/WhatsApp/Facebook</string>
     <string name="onboarding_organizer_third_title">Crie a sua página pessoal</string>
-    <string name="onboarding_organizer_third_subtitle">Crie uma página pessoal para destacar seus eventos e fornecer informações de contacto para os participantes</string>
+    <string name="onboarding_organizer_third_subtitle">Crie uma página pessoal para destacar seus eventos e fornecer informações de contato para os participantes</string>
     <string name="onboarding_organizer_fourth_title">Venda ingressos com facilidade</string>
     <string name="onboarding_organizer_fourth_subtitle">Utilize ingressos QR, scanner de ingressos, pagamentos diários automáticos, coleta de feedback e relatórios em Excel para gerenciar todos os aspectos do seu evento em um único local</string>
     <string name="duplicate_event">Evento duplicado</string>
@@ -598,14 +598,14 @@
     <string name="specify_seats_per_attendee_limit">Número de assentos disponíveis por participante</string>
     <string name="registration_status_price_changed">O organizador do evento atualizou os ingressos para este evento. Se deseja comprar um ingresso, considere se inscrever novamente</string>
     <string name="edit_event_visibility_title">Quem pode acessar a página do seu evento?</string>
-    <string name="qr_ticket_scanner">Escançar ingresso QR</string>
+    <string name="qr_ticket_scanner">Escanear ingresso QR</string>
     <string name="qr_ticket_scanner_notice">Escaneie o ingresso do participante para verificar o seu status e resultados de inscrição</string>
     <string name="need_access_to_camera">O nosso aplicativo precisa de acesso à câmera para escanear o QR code do ingresso</string>
     <string name="camera_title">Câmera</string>
     <string name="qr_ticket_scan">Escanear ingresso QR</string>
     <string name="scanner">Scanner</string>
     <string name="ticket_state">Situação do ingresso</string>
-    <string name="event_registered_amount">Usuárioes inscritos</string>
+    <string name="event_registered_amount">Usuários inscritos</string>
     <string name="event_paid_amount">Ingressos vendidos</string>
     <string name="event_cancelled_amount">Participação cancelada</string>
     <string name="event_checked_in_amount">Ingressos verificados</string>
@@ -632,7 +632,7 @@
     <string name="event_stats_registered">Inscrito</string>
     <string name="event_stats_seats_limit">Total de assentos</string>
     <string name="event_stats_occupied">Assentos ocupados</string>
-    <string name="event_stats_interested">Usuárioes interessados</string>
+    <string name="event_stats_interested">Usuários interessados</string>
     <string name="block">Bloquear</string>
     <string name="save_notify">Salvar &amp; Notificar</string>
     <string name="save_notify_title">Salvar e notificar participantes</string>
@@ -692,6 +692,6 @@
     <string name="create_facebook_form">Facebook Messenger</string>
     <string name="contact_us_facebook">Messenger</string>
     <string name="complete_order">Pedido realizado! 🚀 \n\nClique aqui para prosseguir para o pagamento:</string>
-    <string name="we_will_contact">Ótimo trabalho! Entraremos em contacto em breve para esclarecer os detalhes do seu pagamento. Se quiser acelerar um pouco esse processo, pode %1$s</string>
+    <string name="we_will_contact">Ótimo trabalho! Entraremos em contato em breve para esclarecer os detalhes do seu pagamento. Se quiser acelerar um pouco esse processo, pode %1$s</string>
     <string name="first_payments_enabled_notification_body">Ótimo trabalho! Entraremos em contato em breve para esclarecer os detalhes do seu pagamento</string>
 </resources>
